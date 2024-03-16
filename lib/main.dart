@@ -40,6 +40,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     content: Text("I am SnackBar"),
                     duration: Duration(seconds: 2),
                     behavior: SnackBarBehavior.floating,
+
                     action: SnackBarAction(label: "OK", onPressed: () {}),
                   ));
                 },
